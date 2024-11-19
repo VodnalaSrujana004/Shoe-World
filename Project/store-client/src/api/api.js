@@ -3,8 +3,8 @@ import axios from 'axios'
 import { getToken } from '../service/auth'
 
 
-const API = 'http://localhost:3000'
-
+// const API = 'http://localhost:3000'
+const API = 'https://shoe-world-server.onrender.com'
 
 const axiosInstance = axios.create({
     baseURL: API,
