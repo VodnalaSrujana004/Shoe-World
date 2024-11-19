@@ -137,7 +137,7 @@ const Navbar = () => {
                 <NavLink
                   to={link.path}
                   key={index}
-                  className="h-[65%] w-20 hover:bg-purple-500/90 hover:text-white flex justify-center items-center rounded-sm"
+                  className="h-[65%] w-20 hover:bg-pink-500 hover:text-white flex justify-center items-center rounded-sm"
                 >
                   {link.title}
                 </NavLink>
@@ -204,7 +204,7 @@ const Navbar = () => {
               </form>
             </div>
             <button
-              className="h-9 w-10 flex justify-center items-center border-2 border-black rounded-full hover:border-purple-500 hover:text-purple-500 ml-4 shadow-md"
+              className="h-9 w-10 flex justify-center items-center border-2 border-black rounded-full hover:border-pink-500 hover:text-pink-500 ml-4 shadow-md"
               onClick={() => {
                 setShowLogin(!showLogin);
               }}
@@ -219,7 +219,7 @@ const Navbar = () => {
             <div className="h-[55%] w-1/3 flex flex-col justify-center items-center bg-white shadow-2xl rounded-md">
               <div className="h-full w-full flex flex-col justify-center items-center text-lg font-semibold">
                 <div className="h-[20%] w-[80%] flex flex-row justify-center items-center">
-                  <h1 className="w-1/2 text-left text-xl my-6 font-bold text-purple-500">
+                  <h1 className="w-1/2 text-left text-xl my-6 font-bold text-pink-500">
                     Login
                   </h1>
                   <div
@@ -241,7 +241,7 @@ const Navbar = () => {
                     name=""
                     id="email"
                     placeholder="Email"
-                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-purple-400 rounded-sm"
+                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-pink-500 rounded-sm"
                     required
                   />
                   <input
@@ -250,19 +250,19 @@ const Navbar = () => {
                     name=""
                     id="password"
                     placeholder="Password"
-                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-purple-400 rounded-sm"
+                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-x-pink-500 rounded-sm"
                     required
                   />
                   <button
                     type="submit"
-                    className="w-full h-[3rem]  shadow-lg shadow-gray-400 hover:shadow-purple-400 bg-purple-500 text-white rounded-sm outline-none"
+                    className="w-full h-[3rem]  shadow-lg shadow-gray-400 hover:shadow-pink-500 bg-pink-500 text-white rounded-sm outline-none"
                   >
                     Login
                   </button>
                 </form>
                 <div className="h-[10%] w-[80%] flex justify-center items-start">
                   <p
-                    className="cursor-pointer text-purple-500 hover:text-purple-600"
+                    className="cursor-pointer text-pink-500 hover:text-pink-500"
                     onClick={switchAuth}
                   >
                     Register ?
@@ -277,7 +277,7 @@ const Navbar = () => {
             <div className="h-[75%] w-1/3 flex flex-col justify-center items-center bg-white shadow-2xl rounded-md">
               <div className="h-full w-full flex flex-col justify-center items-center text-lg font-semibold">
                 <div className="h-[20%] w-[80%] flex flex-row justify-center items-center">
-                  <h1 className="w-1/2 text-left text-xl my-6 font-bold text-purple-500">
+                  <h1 className="w-1/2 text-left text-xl my-6 font-bold text-pink-500">
                     Register
                   </h1>
                   <div
@@ -299,7 +299,7 @@ const Navbar = () => {
                     name=""
                     id="name"
                     placeholder="Name"
-                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-purple-400 rounded-sm"
+                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-pink-500 rounded-sm"
                     required
                   />
                   <input
@@ -308,7 +308,7 @@ const Navbar = () => {
                     name=""
                     id="email"
                     placeholder="Email"
-                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-purple-400 rounded-sm"
+                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-pink-500 rounded-sm"
                     required
                   />
                   <input
@@ -317,7 +317,7 @@ const Navbar = () => {
                     name=""
                     id="password"
                     placeholder="Password"
-                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-purple-400 rounded-sm"
+                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-pink-500 rounded-sm"
                     required
                   />
                   <input
@@ -326,19 +326,19 @@ const Navbar = () => {
                     name=""
                     id="phone"
                     placeholder="Phone"
-                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-purple-400 rounded-sm"
+                    className="w-full shadow-sm outline-none bg-[#f5f5f7] border-b-2 border-transparent p-4 focus:shadow-lg focus:border-b-2 focus:border-pink-500 rounded-sm"
                     required
                   />
                   <button
                     type="submit"
-                    className="w-full h-[3rem] shadow-lg shadow-gray-400 hover:shadow-purple-400 bg-purple-500 text-white rounded-sm outline-none"
+                    className="w-full h-[3rem] shadow-lg shadow-gray-400 hover:shadow-pink-500 bg-pink-500 text-white rounded-sm outline-none"
                   >
                     Register
                   </button>
                 </form>
                 <div className="h-[10%] w-[80%] flex justify-center items-start">
                   <p
-                    className="cursor-pointer text-purple-500 hover:text-purple-600"
+                    className="cursor-pointer text-pink-500 hover:text-pink-500"
                     onClick={switchAuth}
                   >
                     Login ?
